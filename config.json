@@ -1,7 +1,7 @@
 {
     "schemas": ["./schemas", "./schema_ext-indischerfgoed.ttl"],
     "application_profile": "./jsonldcontext.jsonld",
-    "html_template": "./software/template.html",
+    "html_template": "./schema-docs/template.html",
     "domain": ["http://www.w3.org/2000/01/rdf-schema#domain", "http://schema.org/domainIncludes"],
     "range": ["http://www.w3.org/2000/01/rdf-schema#range", "http://schema.org/rangeIncludes"],
     "output_folder": "./doc",
