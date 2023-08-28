@@ -35,7 +35,7 @@ jobs:
         pip install -r $GITHUB_WORKSPACE/schema-docs/requirements.txt
     - name: Build docs
       run: |
-        python schema-docs/main.py
+        python schema-docs/main.py --config $GITHUB_WORKSPACE/config.json
     - name: Upload docs as a github-pages artifact
       uses: actions/upload-pages-artifact@v1
       with: 
